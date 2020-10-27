@@ -5,7 +5,7 @@ pipeline {
         stage ('b-huang: Jenkinsfile_master') {
 
             steps {
-                sh 'echo "Hello World MS"'
+                sh 'echo "b-huang/my_pl_1: Jenkinsfile_master"'
             }
         }
     }
