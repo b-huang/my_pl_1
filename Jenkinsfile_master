@@ -1,0 +1,12 @@
+pipeline {
+    agent any
+
+    stages {
+        stage ('b-huang: Jenkinsfile_master') {
+
+            steps {
+                sh 'echo "Hello World MS"'
+            }
+        }
+    }
+}
