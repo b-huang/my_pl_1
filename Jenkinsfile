@@ -5,7 +5,7 @@ pipeline {
         stage ('my_p1_1') {
 
             steps {
-                sh 'echo "--- end ---"'
+                sh 'echo "my_p1_1: Jenkinsfile"'
             }
         }
     }
