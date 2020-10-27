@@ -17,7 +17,7 @@ pipeline {
                 sh 'echo $CHANGE_AUTHOR'
                 sh 'echo $CHANGE_TARGET'
                 sh 'echo $BUILD_NUMBER'
-                sh 'eccho "--- end ---"'
+                sh 'echo "--- end ---"'
             }
         }
     }
